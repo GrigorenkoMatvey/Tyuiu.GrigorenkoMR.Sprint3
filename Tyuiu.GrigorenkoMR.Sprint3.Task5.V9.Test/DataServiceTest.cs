@@ -15,8 +15,8 @@ namespace Tyuiu.GrigorenkoMR.Sprint3.Task5.V9.Test
             int stopValue1 = 3;
             int startValue2 = 1;
             int stopValue2 = 14;
-            var res = ds.GetSumSumSeries(x, startValue1, stopValue1, startValue2, stopValue2);
-            Assert.AreEqual(9.790, res);
+            var res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
+            Assert.AreEqual(231.235, res);
         }
     }
 }

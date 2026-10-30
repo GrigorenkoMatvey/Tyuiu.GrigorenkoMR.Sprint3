@@ -13,11 +13,11 @@ public class DataService : ISprint3Task5V9
         {
             for (int k = startValue2; k <= stopValue2; k++)
             {
-                s0 = 1.0 / Math.Sin(k);
+                s0 = (1.0 / Math.Sin(k)) + x;
 
                 s1 += s0;
             }
         }
-        return Math.Round(s1 + x, 3);
+        return Math.Round(s1, 3);
     }
 }
