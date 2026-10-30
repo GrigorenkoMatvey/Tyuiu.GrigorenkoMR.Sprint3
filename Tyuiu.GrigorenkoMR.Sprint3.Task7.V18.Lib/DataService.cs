@@ -17,14 +17,13 @@ namespace Tyuiu.GrigorenkoMR.Sprint3.Task7.V18.Lib
             {
                 double d = Math.Cos(x) + x;
 
-                // Проверка деления на ноль
                 if (d == 0)
                 {
                     f = 0;
                 }
                 else
                 {
-                    f = Math.Round(((2 * x - 3) / d) + 5, 2); // округляем до 2 знаков
+                    f = Math.Round(((2 * x - 3) / d) + 5, 2); 
                 }
 
                 valueArray[count] = f; // присваиваем значение в массив с индексом count

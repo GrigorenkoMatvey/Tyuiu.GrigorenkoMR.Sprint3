@@ -19,7 +19,6 @@ namespace Tyuiu.GrigorenkoMR.Sprint3.Task7.V18.Test
             double[] valueWaitArray;
             valueWaitArray = new double[len];
 
-            // Заполняем ожидаемый массив значениями для x = -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5
             valueWaitArray[0] = 7.76;
             valueWaitArray[1] = 7.36;
             valueWaitArray[2] = 7.26;

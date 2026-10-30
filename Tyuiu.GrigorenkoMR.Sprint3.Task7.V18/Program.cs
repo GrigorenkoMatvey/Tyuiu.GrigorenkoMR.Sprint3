@@ -28,13 +28,13 @@ namespace Tyuiu.GrigorenkoMR.Sprint3.Task7.V18
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
 
-            // Получаем длину массива (у тебя было правильно)
+            // Получаею длину массива
             int len = ds.GetMassFunction(startValue, stopValue).Length;
 
             double[] valueArray;
             valueArray = new double[len];
             
-            // Заполняем массив значениями
+            // Заполняею массив значениями
             valueArray = ds.GetMassFunction(startValue, stopValue);
 
             Console.WriteLine("***************************************************************************");
@@ -45,12 +45,12 @@ namespace Tyuiu.GrigorenkoMR.Sprint3.Task7.V18
             Console.WriteLine("|    X     |   f(x)   |");
             Console.WriteLine("+----------+----------+");
 
-            // Создаем локальную переменную для вывода
+            // Создаею локальную переменную для вывода
             int currentX = startValue;
 
             for (int i = 0; i < len; i++)
             {
-                // Выводим текущий X (выравнивание по правому краю 6 знаков)
+                // Вывожу текущий X (выравнивание по правому краю 6 знаков)
                 // и значение f(x) (выравнивание по правому краю 6 знаков с 2 знаками после запятой)
                 Console.WriteLine("| {0,6}   | {1,6:F2}   |", currentX, valueArray[i]);
 
