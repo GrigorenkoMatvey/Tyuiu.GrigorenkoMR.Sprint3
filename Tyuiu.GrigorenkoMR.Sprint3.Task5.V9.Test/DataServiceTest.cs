@@ -10,13 +10,13 @@ namespace Tyuiu.GrigorenkoMR.Sprint3.Task5.V9.Test
         {
             DataService ds = new DataService();
 
-            int x = 1;
+            int x = 5;
             int startValue1 = 1;
             int stopValue1 = 3;
             int startValue2 = 1;
             int stopValue2 = 14;
             var res = ds.GetSumSumSeries(x, startValue1, stopValue1, startValue2, stopValue2);
-            Assert.AreEqual(5.790, res);
+            Assert.AreEqual(9.790, res);
         }
     }
 }
